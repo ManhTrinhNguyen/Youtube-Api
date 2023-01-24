@@ -15,11 +15,12 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
     const apiKey = process.env.API_KEY
-    //const channelId = "UCqZQlzSHbVJrwrn5XvzrzcA"
+    const channelId = "UCqZQlzSHbVJrwrn5XvzrzcA"
     let query = req.body.query
-    let queryChannelId = req.body.queryChannel
 
-    const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&part=snippet&channelId=${queryChannelId}&q=${query}&maxResults=6`
+    console.log(query)
+
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&part=snippet&channelId=${channelId}&q=${query}&maxResults=6`
 
         fetch(url)
         .then(response => response.json())
