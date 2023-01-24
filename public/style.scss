@@ -52,7 +52,7 @@ body {
             margin: 0 auto;
             input {
                 outline: none;
-                width: 290px;
+                width: 200px;
                 height: 57.12px;
                 border: 3px solid #1B4965;
                 font-size: 20px;
@@ -68,7 +68,7 @@ body {
                 padding-left: 20px;
             }
             button {
-                width: 60px;
+                width : 60px;
                 height: 57.12px;
                 left: 313px;
                 background: #5FA8D3;
@@ -77,6 +77,14 @@ body {
                     font-size: 20px;
                     color: white;
                 }
+            }
+
+            #channel {
+                outline: none;
+                width: 100px;
+                height: 57.12px;
+                border: 3px solid #1B4965;
+                font-size: 10px;
             }
         }
         // Video Container
@@ -165,10 +173,12 @@ body {
             }
             // Search Input
             .searchInput {
-                display: block;
+                display: flex;
                 width: 90%;
                 margin: 0 auto;
-                text-align: center;
+                //text-align: center;
+                align-items: center;
+                justify-content: center;
                 input {
                     outline: none;
                     width: 290px;
@@ -196,6 +206,13 @@ body {
                         font-size: 20px;
                         color: white;
                     }
+                }
+                #channel {
+                    outline: none;
+                    width: 140px;
+                    height: 57.12px;
+                    border: 3px solid #1B4965;
+                    font-size: 15px;
                 }
             }
             // Video Container
@@ -297,10 +314,11 @@ body {
             }
             // Search Input
             .searchInput {
-                display: block;
+                display: flex;
                 width: 90%;
                 margin: 0 auto;
-                text-align: center;
+                align-items: center;
+                justify-content: center;
                 input {
                     outline: none;
                     width: 290px;
@@ -328,6 +346,13 @@ body {
                         font-size: 20px;
                         color: white;
                     }
+                }
+                #channel {
+                    outline: none;
+                    width: 140px;
+                    height: 57.12px;
+                    border: 3px solid #1B4965;
+                    font-size: 15px;
                 }
             }
             // Video Container

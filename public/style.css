@@ -51,7 +51,7 @@ body .container .searchInput {
 }
 body .container .searchInput input {
   outline: none;
-  width: 290px;
+  width: 200px;
   height: 57.12px;
   border: 3px solid #1B4965;
   font-size: 20px;
@@ -90,6 +90,13 @@ body .container .searchInput button {
 body .container .searchInput button i {
   font-size: 20px;
   color: white;
+}
+body .container .searchInput #channel {
+  outline: none;
+  width: 100px;
+  height: 57.12px;
+  border: 3px solid #1B4965;
+  font-size: 10px;
 }
 body .container .video-container {
   width: 90%;
@@ -166,10 +173,11 @@ body .container .no-result-container h2 {
     color: #1B4965;
   }
   body .container .searchInput {
-    display: block;
+    display: flex;
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   body .container .searchInput input {
     outline: none;
@@ -212,6 +220,13 @@ body .container .no-result-container h2 {
   body .container .searchInput button i {
     font-size: 20px;
     color: white;
+  }
+  body .container .searchInput #channel {
+    outline: none;
+    width: 140px;
+    height: 57.12px;
+    border: 3px solid #1B4965;
+    font-size: 15px;
   }
   body .container .video-container {
     width: 90%;
@@ -295,10 +310,11 @@ body .container .no-result-container h2 {
     color: #1B4965;
   }
   body .container .searchInput {
-    display: block;
+    display: flex;
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   body .container .searchInput input {
     outline: none;
@@ -341,6 +357,13 @@ body .container .no-result-container h2 {
   body .container .searchInput button i {
     font-size: 20px;
     color: white;
+  }
+  body .container .searchInput #channel {
+    outline: none;
+    width: 140px;
+    height: 57.12px;
+    border: 3px solid #1B4965;
+    font-size: 15px;
   }
   body .container .video-container {
     width: 90%;
